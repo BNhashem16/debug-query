@@ -1,22 +1,22 @@
 {
-    "name": "hashem/debug-query",
+    "name": "Bnhashem/debug-query",
     "description": "This is my package debug-query",
     "keywords": [
-        "Hashem",
+        "Bnhashem",
         "laravel",
         "debug-query"
     ],
-    "homepage": "https://github.com/BNhashem16/debug-query",
+    "homepage": "https://github.com/Bnhashem16/debug-query",
     "license": "MIT",
     "authors": [
         {
-            "name": "BNHashem",
-            "email": "a.mohamed.salah.hashem@gmail.com",
+            "name": "Ahmed Mohamed hashem",
+            "email": "me@aBnhashem.info",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^8.0",
+        "php": "^7.3|^8.0",
         "spatie/laravel-package-tools": "^1.4.3",
         "illuminate/contracts": "^8.37"
     },
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Hashem\\DebugQuery\\": "src"
+            "Bnhashem\\DebugQuery\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hashem\\DebugQuery\\Tests\\": "tests"
+            "Bnhashem\\DebugQuery\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hashem\\DebugQuery\\DebugQueryServiceProvider"
+                "Bnhashem\\DebugQuery\\DebugQueryServiceProvider"
             ]
         }
     },

@@ -1,6 +1,5 @@
 <?php
-
-namespace Hashem\DebugQuery;
+namespace Bnhashem\DebugQuery;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
