@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "hashem/debug-query",
+    "description": "This is my package debug-query",
     "keywords": [
-        ":vendor_name",
+        "Hashem",
         "laravel",
-        ":package_slug"
+        "debug-query"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/BNhashem16/debug-query",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "BNHashem",
+            "email": "a.mohamed.salah.hashem@gmail.com",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Hashem\\DebugQuery\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Hashem\\DebugQuery\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,11 +48,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
-            ],
-            "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
-            }
+                "Hashem\\DebugQuery\\DebugQueryServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
