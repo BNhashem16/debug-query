@@ -1,10 +1,10 @@
 <?php
 namespace Bnhashem\DebugQuery;
 
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Str;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class DebugQueryServiceProvider extends PackageServiceProvider
 {

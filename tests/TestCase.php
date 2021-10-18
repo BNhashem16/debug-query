@@ -2,9 +2,9 @@
 
 namespace DebugQuery\DebugQuery\Tests;
 
+use DebugQuery\DebugQuery\DebugQueryServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DebugQuery\DebugQuery\DebugQueryServiceProvider;
 
 class TestCase extends Orchestra
 {
