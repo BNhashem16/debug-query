@@ -2,27 +2,12 @@
 namespace Bnhashem\DebugQuery;
 
 use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Str;
-use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class DebugQueryServiceProvider extends PackageServiceProvider
+class DebugQueryServiceProvider extends ServiceProvider
 {
-    public function configurePackage(Package $package): void
-    {
-        /*
-         * This class is a Package Service Provider
-         *
-         * More info: https://github.com/spatie/laravel-package-tools
-         */
-        // $package
-        //     ->name('debug-query')
-        //     ->hasConfigFile()
-        //     ->hasViews()
-        //     ->hasMigration('create_debug-query_table')
-        //     ->hasCommand(DebugQueryCommand::class);
-    }
-
+  
     public function register()
     {
         Builder::macro('sql', function () {
