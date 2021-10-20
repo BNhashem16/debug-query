@@ -18,7 +18,7 @@ $users->sql();
 
 ## Show Sql Query
 ```php
-"select * from `users` where `email` = 'test@test.com' and `users`"
+"select * from `users` where `email` = 'test@test.com'"
 ```
 
 [All Contributors](../../contributors)
