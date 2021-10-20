@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 
 class DebugQueryServiceProvider extends ServiceProvider
 {
-  
+    
     public function register()
     {
         Builder::macro('sql', function () {
