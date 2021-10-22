@@ -5,7 +5,7 @@
 You can install the package via composer:
 
 ```bash
-composer require bnhashem/debug-query
+composer require bnhashem/debug-query --dev
 ```
 
 ## Usage
