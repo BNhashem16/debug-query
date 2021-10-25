@@ -12,7 +12,7 @@ class DebugQueryServiceProvider extends ServiceProvider
     {
         Builder::macro('sql', function () {
             $bindings = $this->getBindings();
-            $query = $this->toSqlWithBindings();
+            $query = $this->toSql();
             $sql = Str::replaceArray('?', $bindings, $query);
             dd($sql);
         });
